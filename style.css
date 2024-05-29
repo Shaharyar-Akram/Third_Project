@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'normal-font';
+}
+
+body{
+    display: block;
+    
+}
+
+.header  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'normal-font';
+}
+.row-1 {
+    background-color: rgb(233, 216, 166);
+    height: 80px;
+}
+.row {
+    padding: 0 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-1 nav {
+    width: 30%;
+}
+.row-1 ul {
+    list-style: none;
+}
+.row-1 li {
+    display: inline-block;
+}
+.row-1 li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'bold-font';
+    font-weight: 800;
+    padding: 0 10px;
+    font-size: 18px;
+}
+svg {
+    width: 800px;
+    margin: auto;
+}
+.hero {
+    background-color: rgb(202 103 1);
+    padding-bottom: 5px;
+    height: 100vh;
+}
+.hero-img {
+    height: 100%;
+    width: 100%;
+}
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
+    object-position: center;
+}
+.hero-2 {
+    flex-wrap: wrap;
+    gap: 2%;
+    padding-bottom: 3%;
+    background: #DBE4DE;
+}
+.heading {
+    width: 100%;
+    margin: 30px 50px;
+    font-size: 38px;
+    font-family: 'bold-font';
+    font-weight: 900;
+}
+.left-image img {
+    width: 330px;
+    height: auto;
+    margin-top: 5px;
+}
+.txtxt {
+    width: 62% !important;
+    margin-right: 80px;
+}
+.txtxt p {
+    font-size: 16px;
+    font-family: 'normal-font';
+    line-height: 28px;
+    color: #000000;
+}
+.row.hero-3 {
+    flex-wrap: wrap;
+    gap: 2%;
+    padding-bottom: 30px;
+    background: rgb(0 95 115);
+}
+.hero-3 .heading {
+    color: #fff;
+}
+#card-sec {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    padding: 0 5%;
+}
+#card-sec .cards {
+    width: 33.33%;
+}
+.product-img {
+    position: relative;
+    height: 330px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+figure#image {
+    height: 100%;
+}
+figure#image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+figcaption#product-name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.685);
+    padding: 0px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 20px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    
+}
+.row.hero-3.hearo-4 {
+    background: #DBE4DE;
+    padding: 50px 5%;
+}
+.row.hero-3.hearo-4 .heading {
+    color: #000;
+}
+.row.hero-3.hearo-4 .cards {
+    width: 100%;
+}
+.row.hero-3.hearo-4 .cards .product-img {
+    height: 550px;
+    border: 7px solid rgb(238, 152, 0);
+}
+#cards-second {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+#cards-second .cards {
+    width: 32%;
+    margin-bottom: 20px;
+}
+#cards-second .card1 .product-img {
+    border: 7px solid #CA6701;
+    position: relative;
+    height: 330px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#cards-second .card2 .product-img {
+    border: 7px solid #005F73;
+}
+#cards-second .cards .product-img {
+    position: relative;
+    height: 330px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}   
+#cards-second .card3 .product-img {
+    border: 7px solid #EE9800;
+}
+#cards-second .card4 .product-img {
+    border: 7px solid #BB3E03;
+}
+#cards-second .card5 .product-img {
+    border: 7px solid #C2DEC2;
+}
+#cards-second .card6 .product-img {
+    border: 7px solid #3E9397;
+}
+
+.footer {
+    width: 100%;
+    padding: 30px 6%;
+    background: #E9D8A6;
+    display: flex;
+    margin-top: 30px;
+}
+.first {
+    width: 40% !important;
+}
+
+.first h2 {
+    font-family: 'bold-font';
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.foooter-image img {
+    margin-right: 10px;
+}
+.second {
+    width: 60%;
+}
+
+.second ul {
+    list-style: none;
+}
+.second ul li {
+    font-size: 20px;
+    font-family: 'bold-font';
+    padding: 2px 0;
+    margin-left: -9px;
+}
+
+
