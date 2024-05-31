@@ -291,54 +291,112 @@ li {
     display: flex;
 }
 
-
-
-/* Responsive styles */
-@media (max-width: 768px) {
-    .header .row, .footer .row {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .hero-2, .hero-3, .hero-4, .hero-5 {
-        text-align: center;
-    }
-
-    .left-image, .txtxt {
-        text-align: center;
-    }
-
-    .hero-2 img {
-        width: 100%;
-        max-width: 200px;
-    }
-
-    #card-sec, #cards-second {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .cards {
-        flex: 1 1 calc(50% - 40px);
-        max-width: calc(50% - 40px);
-    }
-
-    .cards.card-full {
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (max-width: 480px) {
-    .cards {
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
+body {
+    font-family: Arial, sans-serif; /* Use a commonly available font */
 }
+
+.row-1 {
+    background-color: rgb(233, 216, 166);
+    height: 80px;
+}
+
+.row {
+    padding: 0 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-1 nav {
+    width: 50%; /* Adjusted width for better responsiveness */
+}
+
+.row-1 li {
+    display: inline-block;
+    margin-right: 10px; /* Add some spacing between menu items */
+}
+
+.row-1 li:last-child {
+    margin-right: 0; /* Remove margin for the last menu item */
+}
+
+.row-1 li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: rgb(202 103 1);
+    padding-bottom: 5px;
+    min-height: 300px; /* Set a minimum height */
+}
+
+.hero-img img {
+    width: 100%;
+    height: auto; /* Ensure image height adjusts automatically */
+}
+
+.hero-2 {
+    padding-bottom: 30px;
+    background: #DBE4DE;
+}
+
+.heading {
+    margin: 30px 5%; /* Adjusted margins for better spacing */
+    font-size: 24px; /* Adjusted font size for better readability */
+}
+
+.left-image,
+.txtxt {
+    width: 100%; /* Adjusted width for better responsiveness */
+    padding: 0 5%; /* Added padding for better spacing */
+}
+
+.left-image img {
+    width: 100%;
+    height: auto; /* Ensure image height adjusts automatically */
+}
+
+.hero-3 {
+    padding-bottom: 30px;
+    background: rgb(0 95 115);
+}
+
+#card-sec {
+    flex-wrap: wrap; /* Ensure cards wrap on smaller screens */
+    justify-content: center; /* Center cards on smaller screens */
+}
+
+#card-sec .cards {
+    width: 45%; /* Adjusted width for better spacing */
+    margin-bottom: 20px; /* Added margin for better spacing between cards */
+}
+
+#card-sec .cards .product-img {
+    height: 250px; /* Adjusted height for better consistency */
+}
+
+#cards-second .cards {
+    width: 45%; /* Adjusted width for better spacing */
+    margin-bottom: 20px; /* Added margin for better spacing between cards */
+}
+
+.footer {
+    background-color: #000; /* Changed background color for better contrast */
+    color: #fff; /* Changed text color for better contrast */
+    padding: 20px 5%; /* Adjusted padding for better spacing */
+}
+
+.footer-image img {
+    width: 30px; /* Adjusted image size for better visibility */
+    margin-right: 10px; /* Added margin for better spacing between images */
+}
+
