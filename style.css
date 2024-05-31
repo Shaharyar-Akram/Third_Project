@@ -284,119 +284,175 @@ li {
     text-align: -webkit-match-parent;
     unicode-bidi: isolate;
 }
+@media screen and (max-width: 767px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+}
 .footer {
     width: 100%;
     padding: 18px 5%;
     background: #E9D8A6;
     display: flex;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@media screen and (max-width: 1024px) {
+    .logo {
+        width: 100%;
+        order: 1;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav#second-navigation ul, nav#first-navigation ul {
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .row-1 nav#first-navigation ul {
+        text-align: right;
+    }
 }
 
-body {
-    font-family: Arial, sans-serif; /* Use a commonly available font */
+
+@media screen and (max-width: 768px) {
+    .row.row-1 {
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .row.row-1 {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .row-1 nav#first-navigation ul {
+        text-align: right;
+    }
+}
+@media screen and (max-width: 1024px) {
+    nav#second-navigation ul {
+        text-align: start;
+    }
+}
+@media screen and (max-width: 767px) {
+    .row.hero-3.hearo-4.hero-5 {
+        padding-top: 0 !important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    div#card-sec {
+        flex-wrap: wrap;
+        padding: 0 !important;
+    }
 }
 
-.row-1 {
-    background-color: rgb(233, 216, 166);
-    height: 80px;
+@media screen and (max-width: 768px) {
+    #cards-second .cards {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav#first-navigation {
+        width: 100%;
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    nav#first-navigation {
+        width: 50%;
+        order: 2;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav#second-navigation ul li, nav#first-navigation ul li {
+        background: brown;
+        width: 48%;
+        border-radius: 10px;
+        height: 50px;
+        line-height: 50px;
+        color: #fff !important;
+        margin: -12px 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav#second-navigation ul li a, nav#first-navigation ul li a {
+        color: #fff;
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav#second-navigation ul, nav#first-navigation ul {
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav#second-navigation {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    nav#second-navigation {
+        order: 3;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav#first-navigation {
+        width: 100%;
+        text-align: center !important;
+    }
 }
 
-.row {
-    padding: 0 5%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@media screen and (max-width: 768px) {
+    h2.heading {
+        margin-left: 0 !important;
+        font-size: 30px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .left-image {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .left-image img {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .txtxt {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    div#card-sec {
+        flex-wrap: wrap;
+        padding: 0 !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    #card-sec .cards {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 768px) {
+    .first {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
 }
 
-.row-1 nav {
-    width: 50%; /* Adjusted width for better responsiveness */
+@media screen and (max-width: 768px) {
+    .second {
+        width: 100% !important;
+    }
 }
-
-.row-1 li {
-    display: inline-block;
-    margin-right: 10px; /* Add some spacing between menu items */
-}
-
-.row-1 li:last-child {
-    margin-right: 0; /* Remove margin for the last menu item */
-}
-
-.row-1 li a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-}
-
-.hero {
-    background-color: rgb(202 103 1);
-    padding-bottom: 5px;
-    min-height: 300px; /* Set a minimum height */
-}
-
-.hero-img img {
-    width: 100%;
-    height: auto; /* Ensure image height adjusts automatically */
-}
-
-.hero-2 {
-    padding-bottom: 30px;
-    background: #DBE4DE;
-}
-
-.heading {
-    margin: 30px 5%; /* Adjusted margins for better spacing */
-    font-size: 24px; /* Adjusted font size for better readability */
-}
-
-.left-image,
-.txtxt {
-    width: 100%; /* Adjusted width for better responsiveness */
-    padding: 0 5%; /* Added padding for better spacing */
-}
-
-.left-image img {
-    width: 100%;
-    height: auto; /* Ensure image height adjusts automatically */
-}
-
-.hero-3 {
-    padding-bottom: 30px;
-    background: rgb(0 95 115);
-}
-
-#card-sec {
-    flex-wrap: wrap; /* Ensure cards wrap on smaller screens */
-    justify-content: center; /* Center cards on smaller screens */
-}
-
-#card-sec .cards {
-    width: 45%; /* Adjusted width for better spacing */
-    margin-bottom: 20px; /* Added margin for better spacing between cards */
-}
-
-#card-sec .cards .product-img {
-    height: 250px; /* Adjusted height for better consistency */
-}
-
-#cards-second .cards {
-    width: 45%; /* Adjusted width for better spacing */
-    margin-bottom: 20px; /* Added margin for better spacing between cards */
-}
-
-.footer {
-    background-color: #000; /* Changed background color for better contrast */
-    color: #fff; /* Changed text color for better contrast */
-    padding: 20px 5%; /* Adjusted padding for better spacing */
-}
-
-.footer-image img {
-    width: 30px; /* Adjusted image size for better visibility */
-    margin-right: 10px; /* Added margin for better spacing between images */
-}
-
